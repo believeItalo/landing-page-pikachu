@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ 
+}
+
+:root{
+    --amarelo-principal: #F5CF06;
+    --marrom-secundario: #8E4106;
+    --margin-default: 70px
+
+}
+
+body{
+    height: 100vh;
+    background-color: var(--amarelo-principal);
+    display: flex;
+    flex-direction: column;
+    padding-top: var(--margin-default);
+    padding-bottom: 24px;
+}
+header{
+    background-color: violet;
+    height: 48px;
+}
+/* flex grow = força para esticar*/
+
+main{
+    background-color: green;
+    flex-grow: 1;
+    
+}
+
+footer{
+    
+    background-color: tomato;
+  
+}
+
+
