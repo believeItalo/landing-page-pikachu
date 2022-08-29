@@ -41,6 +41,7 @@ main{
     margin-right: var(--margin-default);
     position: relative;
      }
+    
      .pikachu{
          position: absolute;
          top: 20%;
@@ -154,8 +155,9 @@ footer{
                transform: translateY(30%);
               
             }            
-            .description_title{
+            .description-title{
                 font-size:10vw;
+              
                
                 
             }
