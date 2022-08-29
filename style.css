@@ -41,6 +41,13 @@ main{
     margin-right: var(--margin-default);
     position: relative;
      }
+     .pikachu{
+         position: absolute;
+         top: 20%;
+         left: 50%;
+         transform: translateX(-50%);
+         z-index: 1;
+     }
 .title{
     grid-column: 1/-1;
     place-self: center;
@@ -72,6 +79,10 @@ main{
     font-size: 64px;
     
 }
+.description-text{
+
+    width: 600px;
+}
 .action{
     background-color: var(--marrom-secundario);
     grid-column: 7/-1;
@@ -84,7 +95,9 @@ main{
     font-size: 48px;
     text-decoration: none;
     color: white;
+    
 }
+
 
 
 footer{
